@@ -20,8 +20,8 @@
         {
             "type": "git",
             "url": "https://gitlab.gnome.org/GNOME/gtk.git",
-            "tag": "4.3.1",
-            "commit": "143770f16d43245f2821d1cdddd6ec1c4d92175f"
+            "tag": "4.2.1",
+            "commit": "ba44668478b7184bec02609f292691b85a2c6cdd"
         },
         {
             "type": "patch",
