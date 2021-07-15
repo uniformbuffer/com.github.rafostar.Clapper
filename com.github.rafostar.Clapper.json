@@ -9,7 +9,7 @@
             "aarch64": {
                 "cflags": "-march=armv8-a+crypto -mtune=cortex-a53 -ftree-vectorize -ftree-slp-vectorize -flto",
 		"cxxflags": "-march=armv8-a+crypto -mtune=cortex-a53 -ftree-vectorize -ftree-slp-vectorize -flto"
-            }
+       	    }
         }
     },
     "finish-args": [
