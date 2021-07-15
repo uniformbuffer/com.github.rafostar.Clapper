@@ -1,6 +1,10 @@
 {
     "name": "liba52",
     "config-opts": [ "--enable-shared", "--disable-static" ],
+    "build-options" : {
+	"cflags": "-flto -ffat-lto-objects",
+	"cxxflags": "-flto -ffat-lto-objects"
+    },
     "rm-configure": true,
     "cleanup": [ "/bin/*a52*" ],
     "sources": [
